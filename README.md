@@ -3,6 +3,9 @@ demo project that uses python and NASA data to find landing sites
 
 ## Running
 
-You need Python 3 and the requsts package.
+You need Python 3 and the requests package.
 
-`python3 space-rocks.py`
+```
+pipenv install
+pipenv run "python meteors/space-rocks.py"
+```
